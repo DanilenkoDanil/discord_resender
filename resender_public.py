@@ -44,7 +44,7 @@ def main():
         )
 
     client.start()
-    url = '-1001703645255'
+    url = -1001703645255
     channel = client.get_entity(url)
     while True:
         dump_all_messages(client, channel)
