@@ -27,8 +27,6 @@ def dump_all_messages(client, channel):
     for message in messages:
         print('go')
         if int(message.id) not in old_message:
-            print(message)
-            discord_message = '--------------------------\n' + message.message + '\n--------------------------'
             send_message('1097865768793813002', discord_message)
             old_message.append(int(message.id))
 
@@ -38,7 +36,7 @@ def main():
         setting = json.load(out)
 
         client = TelegramClient(
-            setting['account']['session'],
+            'vip',
             setting['account']['api_id'],
             setting['account']['api_hash']
         )
