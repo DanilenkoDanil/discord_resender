@@ -1,0 +1,16 @@
+{
+"account": {
+       "session": "session",
+       "api_id": "1657535",
+       "api_hash": "f8a7bd5cec61439d2e8b030017d7bed2",
+	   "admins": []
+    },
+    "channels": {
+     	"source": [            
+		 -1001703645255
+        ],
+        "send_to": [
+		"https://t.me/degenpump_crypto_pump_signals", "https://t.me/crypto_pump_signals_degenpump", "https://t.me/degenpump_crypto_pumps_signals", "https://t.me/next_crypto_pump_signals_degen", "https://t.me/crypto_pump_signals_now_degen", "https://t.me/best_crypto_pump_signals_degen", "https://t.me/binance_crypto_pump_signal_degen", "https://t.me/crypto_pump_detector_degenpump"
+		]
+}
+}
