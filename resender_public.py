@@ -27,7 +27,6 @@ def dump_all_messages(client, channel):
     for message in messages:
         print('go')
         if int(message.id) not in old_message:
-            print(message)
             discord_message = '--------------------------\n' + message.message + '\n--------------------------'
             send_message('1097866060964823060', discord_message)
             old_message.append(int(message.id))
